@@ -522,9 +522,7 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-    background-image: url(../images/choosing-bg.jpg);
-    background-color: #172238;
-    background-repeat: no-repeat;
+    background: #172238 no-repeat;
     background-size: cover;
     padding-bottom: 100px;
 }
@@ -917,11 +915,15 @@ section.products .owl-carousel button.active {
 /* Video */
 
 section.video {
+    background-size: cover;
+    background: #172238 no-repeat;
+}
+
+section.service {
     background-image: url(../images/courses-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
-    padding: 120px 0px;
 }
 
 section.video .left-content {
@@ -1473,6 +1475,12 @@ img.mfp-img {
   }
 }
 
+/* Service */
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
 
 
 /* Contact */
